@@ -1,11 +1,16 @@
 public class Main{
     public static void main(String[] args) {
-        String word = "Programming";
+        /*String word = "Programming";
 
-        for(int i = 0; i < word.length(); i+=2){
-            System.out.print(word.charAt(i));
+        for(int i = 2; i < 10; i++){
+            System.out.println(i*2);
         }
 
-        System.out.println();
+        System.out.println();*/
+
+        for(int i = 10; i > 0; i--){
+            System.out.println(i);
+        }
     }
 }
+
